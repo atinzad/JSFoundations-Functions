@@ -40,7 +40,7 @@ console.log(isOdd(5));
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-  return n%2===1 ? Math.floor(n/2) : n/2;
+  return isOdd(n) ? Math.floor(n/2) : n/2;
 }
 
 console.log(oddsSmallerThan(6));
