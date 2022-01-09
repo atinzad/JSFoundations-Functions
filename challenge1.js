@@ -32,15 +32,15 @@ printAge(1981);
  */
 
 function printHello(name, language){
-    if(language=== "English"){
+    if(language=== "en"){
         console.log(`Hello {name}`);
-    } else if(language === "French"){
+    } else if(language === "fr"){
         console.log(`Bonjour {name}`);
     }
-    else if(language === "Spanish"){
+    else if(language === "es"){
         console.log(`Hola {name}`);
     }
-    else if(language === "Arabic"){
+    else if(language === "tr"){
         console.log(`Merhaba {name}`);
     }
     else{
