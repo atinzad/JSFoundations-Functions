@@ -7,7 +7,7 @@
  * greet("Hamza") logs "Hello Hamza"
  */
 function greet(name) {
-  console.log(`Hello {name}`);
+  console.log(`Hello ${name}`);
 }
 
 greet("Hamza");
